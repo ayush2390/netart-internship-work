@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(to bottom, white, #ffe15d);
 }
 
 .App-logo {
@@ -11,6 +12,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+ul {
+  padding-right: 90px;
 }
 
 .App-header {
@@ -35,4 +40,97 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  background-color: red;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-items {
+  padding-top: 10px;
+  color: white;
+}
+
+.footer-items span {
+  font-weight: bold;
+}
+
+.detailsHeading {
+  font-weight: bolder;
+  margin: 20px;
+}
+
+.detailsContent {
+  margin-bottom: 20px;
+}
+
+.detailsContent span {
+  color: red;
+}
+
+.details {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.products {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.line {
+  width: 80%;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: red;
+  height: 2px;
+}
+
+.products img {
+  width: 80%;
+}
+
+.content {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  height: 900px;
+}
+
+.contentItem1 {
+  width: 30%;
+}
+
+.contentItem1 img {
+  width: 110%;
+  padding-top: 20px;
+}
+.contentItem2 {
+  width: 70%;
+  float: right;
+  text-align: left;
+  padding-left: 40px;
+  font-size: 17px;
+}
+.contentItem2 img {
+  width: 90%;
+}
+.contentItem2 span {
+  font-weight: bold;
+}
+.contentItem2 h5 {
+  font-size: 17px;
+}
+.contentItem2 p {
+  padding-right: 90px;
+}
+
+.header img {
+  width: 30%;
+}
+
+.products div {
+  font-weight: bold;
 }
